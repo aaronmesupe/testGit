@@ -1,0 +1,42 @@
+p {
+	font-size: 60px;
+}
+
+.box-green{
+	background-color: green;
+	height: 200px;
+}
+.box-red{
+	background-color: red;
+	height: 200px;
+}
+.box-blue{
+	background-color: blue;
+	height: 200px;
+}
+
+.box-orange{
+	background-color: orange;
+	height: 200px;
+}
+
+/* Se aplica de 900px en adelante */
+@media (min-width: 900px){
+	p {
+		font-size: 40px;
+	}
+}
+
+/* Se aplica de 750px hasta 0px */
+@media (max-width: 750px){
+	p {
+		font-size: 24px;
+	}
+}
+
+/* Desde el min hasta el max */
+@media (min-width: 350px) and (max-width: 500px) {
+	p {
+		font-size: 16px;
+	}
+}
